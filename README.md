@@ -59,14 +59,10 @@ Here is sample of the dataset after data preprocessing:
 - The least expensive town is **Windham**, with an average sale price of **$159,641**.
 - These findings reflect the economic disparities across Connecticut, with wealthier towns like Greenwich being more desirable due to their proximity to major cities like New York.
 
-**Recommended Visualization:**
-- Bar plot showing the top 10 most expensive and least expensive towns. Use the visualization from the notebook where you plotted **'Top 10 Most Expensive Towns to Buy a Single Family Home'** and **'Top 10 Least Expensive Towns to Buy a Single Family Home'**.
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/user-attachments/assets/c5951df2-0494-4fce-a5d4-6b6adc552c7d" alt="Top 10 Most Expensive Towns" width="400"/>
-  <img src="https://github.com/user-attachments/assets/fdde367b-695d-4f78-b7d6-49d20a741420" alt="Top 10 Least Expensive Towns" width="400"/>
+  <img src="https://github.com/user-attachments/assets/c5951df2-0494-4fce-a5d4-6b6adc552c7d" alt="Top 10 Most Expensive Towns" width="450"/>
+  <img src="https://github.com/user-attachments/assets/fdde367b-695d-4f78-b7d6-49d20a741420" alt="Top 10 Least Expensive Towns" width="450"/>
 </div>
-
-
 
 
 ### Year-Over-Year Sale Trends:
