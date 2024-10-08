@@ -41,3 +41,6 @@ The dataset, sourced from the Connecticut Office of Policy and Management, conta
 
 During preprocessing, unnecessary columns were removed, such as assessor remarks and non-use code values, to streamline the dataset. Rows with erroneous entries flagged in the OPM remarks were also filtered out. Additionally, outliers in the sales ratio were identified and removed to improve the accuracy and performance of the predictive model. 
 
+Here is sample of the dataset after data preprocessing:
+![image](https://github.com/user-attachments/assets/95cdc1ac-b367-4b75-abaf-22929b7303f5)
+
