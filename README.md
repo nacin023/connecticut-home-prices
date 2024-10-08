@@ -32,6 +32,7 @@ The dataset includes sales data for all real estate transactions in Connecticut 
 
 ### [Dataset summary](https://data.ct.gov/Housing-and-Development/Real-Estate-Sales-2001-2022-GL/5mzw-sjtu/about_data):
 
+
 The dataset consists of key columns:
 
 - `list_year`: Year the property was listed for sale.
@@ -47,7 +48,7 @@ During preprocessing, unnecessary columns were removed, such as assessor remarks
 
 Here is sample of the dataset after data preprocessing:
 
-![image](https://github.com/user-attachments/assets/f544e6fd-3504-4e13-af37-4665d9d3a995)
+<img src="https://github.com/user-attachments/assets/f544e6fd-3504-4e13-af37-4665d9d3a995" alt="Sample Image" width="500"/>
 
 # Executive Summary
 
