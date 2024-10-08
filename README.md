@@ -61,6 +61,10 @@ Here is sample of the dataset after data preprocessing:
 
 **Recommended Visualization:**
 - Bar plot showing the top 10 most expensive and least expensive towns. Use the visualization from the notebook where you plotted **'Top 10 Most Expensive Towns to Buy a Single Family Home'** and **'Top 10 Least Expensive Towns to Buy a Single Family Home'**.
+- ![image](https://github.com/user-attachments/assets/c5951df2-0494-4fce-a5d4-6b6adc552c7d)
+- ![image](https://github.com/user-attachments/assets/6cddc037-b72b-484d-9fff-0a698870bb8d)
+
+
 
 ### Year-Over-Year Sale Trends:
 - Home prices saw a stable pattern from 2006 to 2018, followed by a significant price surge starting in **2019**.
@@ -99,7 +103,8 @@ Here is sample of the dataset after data preprocessing:
 - **Historical Trend**: The flat pricing trends before **2019** suggest a stagnant market, possibly due to economic stability, but the sharp price rise from **2019 to 2020** reflects a major shift in housing demand driven by the pandemic.
 
 **Recommended Visualization:**
-- The **'Median Sale Amount Over Time'** line plot can be reintroduced here to provide context for the historical sale price trends.
+- ![image](https://github.com/user-attachments/assets/6623d583-cdee-4c0e-86d6-0b7249006c4e)
+
 
 ## 3. Model Performance and Feature Importance
 - **Quantified Value**: The **Random Forest Regressor** outperformed other models with an **R² of 0.993** and an **RMSE of $56,048**.
@@ -107,7 +112,8 @@ Here is sample of the dataset after data preprocessing:
 - **Historical Trend**: Assessed values remain a key determinant of sale prices in Connecticut's real estate market, but the model struggles with extreme outliers, particularly in luxury property sales.
 
 **Recommended Visualization:**
-- Include the **'Feature Importance (Random Forest)'** bar plot here to show which features contributed most to the predictions.
+- ![image](https://github.com/user-attachments/assets/ba135a4d-9fa5-4d3d-be1b-71e37edf2b27)
+
 
 ## 4. Sales Ratio Decline and Market Misalignment
 - **Quantified Value**: The **sales ratio** (the ratio of sale price to assessed value) fell dramatically from **2011** onwards, reaching its lowest point in **2020**.
@@ -115,7 +121,8 @@ Here is sample of the dataset after data preprocessing:
 - **Historical Trend**: The sharp drop in **2020** aligns with the housing boom, where rapid price increases outpaced the ability of assessed values to keep up, underscoring the lag in property tax assessments during times of economic volatility.
 
 **Recommended Visualization:**
-- Use the **'Median Sales Ratio Over Time'** line plot again to demonstrate the decline in sales ratios across the years.
+- ![image](https://github.com/user-attachments/assets/c1ff970f-d99d-45a2-94c2-d9bcc204bf92)
+
 
 ---
 
