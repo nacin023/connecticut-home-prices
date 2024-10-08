@@ -61,8 +61,11 @@ Here is sample of the dataset after data preprocessing:
 
 **Recommended Visualization:**
 - Bar plot showing the top 10 most expensive and least expensive towns. Use the visualization from the notebook where you plotted **'Top 10 Most Expensive Towns to Buy a Single Family Home'** and **'Top 10 Least Expensive Towns to Buy a Single Family Home'**.
-- ![image](https://github.com/user-attachments/assets/c5951df2-0494-4fce-a5d4-6b6adc552c7d)
-- ![image](https://github.com/user-attachments/assets/6cddc037-b72b-484d-9fff-0a698870bb8d)
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/c5951df2-0494-4fce-a5d4-6b6adc552c7d" alt="Top 10 Most Expensive Towns" width="400"/>
+  <img src="https://github.com/user-attachments/assets/fdde367b-695d-4f78-b7d6-49d20a741420" alt="Top 10 Least Expensive Towns" width="400"/>
+</div>
+
 
 
 
