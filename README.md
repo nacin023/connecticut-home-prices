@@ -16,7 +16,7 @@ To develop a data-driven approach for forecasting single-family home prices in C
 - Sales ratio trends, representing the relationship between assessed value and sale price.
 - Key drivers influencing sale prices.
 
-## (Data Source)[https://catalog.data.gov/dataset/real-estate-sales-2001-2018]
+## [Data Source](https://catalog.data.gov/dataset/real-estate-sales-2001-2018)
 
 The dataset includes sales data for all real estate transactions in Connecticut where the sale price was greater than $2,000. Key fields include town, property address, sales price, property assessment value, and sales ratio. The dataset covers sales reported between October 1 and September 30 each year, as required by Connecticut General Statutes.
 
