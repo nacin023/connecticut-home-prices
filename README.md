@@ -69,19 +69,19 @@ Here is sample of the dataset after data preprocessing:
 - Home prices saw a stable pattern from 2006 to 2018, followed by a significant price surge starting in **2019**.
 - The **2020 housing boom** led to the highest median sale prices in the dataset, likely driven by pandemic-induced demand for housing.
 
-![image](https://github.com/user-attachments/assets/58843984-e54a-44dd-8fee-a8b50f0e468a)
+<img src="https://github.com/user-attachments/assets/58843984-e54a-44dd-8fee-a8b50f0e468a)" alt="" width="500"/>
 
 
 ### Model Performance:
 - The **Random Forest Regressor** emerged as the best-performing model with an **R² score of 0.993** and an **RMSE of $56,048**. The model's reliance on assessed value highlights the critical role of this feature in predicting sale prices.
 
-![image](https://github.com/user-attachments/assets/9f962b92-b5dc-48d1-98cf-cb79f1de17ec)
+<img src="https://github.com/user-attachments/assets/9f962b92-b5dc-48d1-98cf-cb79f1de17ec" alt="" width="500"/>
 
 
 ### Sales Ratio Decline:
 - Sales ratios have steadily declined since **2011**, with a sharp drop in **2020**, indicating homes sold for much higher than their assessed values during the pandemic housing surge.
 
-![image](https://github.com/user-attachments/assets/c92e28cb-e9bb-4cb1-b298-1508cfdc765e)
+<img src="https://github.com/user-attachments/assets/c92e28cb-e9bb-4cb1-b298-1508cfdc765e" alt="" width="500"/>
 
 
 ---
@@ -98,8 +98,7 @@ Here is sample of the dataset after data preprocessing:
 - **Business Metric**: The **2020 housing boom**—likely driven by pandemic-related demand—indicates a potential opportunity for real estate agents and investors to capitalize on a still-hot market, but also highlights risks in accurately pricing homes during periods of volatility.
 - **Historical Trend**: The flat pricing trends before **2019** suggest a stagnant market, possibly due to economic stability, but the sharp price rise from **2019 to 2020** reflects a major shift in housing demand driven by the pandemic.
 
-**Recommended Visualization:**
-- ![image](https://github.com/user-attachments/assets/6623d583-cdee-4c0e-86d6-0b7249006c4e)
+<img src="https://github.com/user-attachments/assets/6623d583-cdee-4c0e-86d6-0b7249006c4e" alt="" width="500"/>
 
 
 ## 3. Model Performance and Feature Importance
@@ -107,8 +106,7 @@ Here is sample of the dataset after data preprocessing:
 - **Business Metric**: The model provides a reliable framework for estimating home prices, with the **assessed value** being the most influential feature, driving the majority of the predictions.
 - **Historical Trend**: Assessed values remain a key determinant of sale prices in Connecticut's real estate market, but the model struggles with extreme outliers, particularly in luxury property sales.
 
-**Recommended Visualization:**
-- ![image](https://github.com/user-attachments/assets/ba135a4d-9fa5-4d3d-be1b-71e37edf2b27)
+<img src="https://github.com/user-attachments/assets/ba135a4d-9fa5-4d3d-be1b-71e37edf2b27" alt="" width="500"/>
 
 
 ## 4. Sales Ratio Decline and Market Misalignment
@@ -116,9 +114,7 @@ Here is sample of the dataset after data preprocessing:
 - **Business Metric**: This decline suggests a growing gap between assessed values and actual sale prices, with homes selling for far above their assessments. Real estate professionals must account for this when advising clients on market conditions.
 - **Historical Trend**: The sharp drop in **2020** aligns with the housing boom, where rapid price increases outpaced the ability of assessed values to keep up, underscoring the lag in property tax assessments during times of economic volatility.
 
-**Recommended Visualization:**
-- ![image](https://github.com/user-attachments/assets/c1ff970f-d99d-45a2-94c2-d9bcc204bf92)
-
+<img src="https://github.com/user-attachments/assets/c1ff970f-d99d-45a2-94c2-d9bcc204bf92" alt="" width="500"/>
 
 ---
 
