@@ -43,5 +43,5 @@ During preprocessing, unnecessary columns were removed, such as assessor remarks
 
 Here is sample of the dataset after data preprocessing:
 
-![image](https://github.com/user-attachments/assets/40f8acc0-bb4c-4809-8df7-3b6ed6064799)
+![image](https://github.com/user-attachments/assets/f544e6fd-3504-4e13-af37-4665d9d3a995)
 
