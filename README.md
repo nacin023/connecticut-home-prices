@@ -24,3 +24,20 @@ The dataset includes sales data for all real estate transactions in Connecticut 
 - Python (Pandas, NumPy, Matplotlib, Seaborn) for data cleaning, analysis, and modeling.
 - Random Forest Regressor for predictive modeling of sale prices.
 
+# Data Structure Overview
+
+The dataset, sourced from the Connecticut Office of Policy and Management, contains real estate sales records from October 1, 2001, through September 30, 2021. Each row represents a property sale, and the dataset includes a total of 14 columns, providing information on the sale amount, assessed value, town, and other important attributes.
+
+## Key Columns
+
+- **List Year**: Year the property was listed for sale (Integer)
+- **Town**: Town where the property is located (Text)
+- **Assessed Value**: The value used for local tax assessment (Numeric)
+- **Sale Amount**: Final sale price of the property (Numeric)
+- **Sales Ratio**: Ratio of the sale price to the assessed value (Float)
+- **Residential Type**: Property type, with a focus on single-family homes for this analysis (Text)
+- **Non Use Code**: Code indicating if the sale price is considered unreliable for determining property value (Text)
+- **OPM Remarks**: Notes from OPM that may flag potential data issues, errors, or discrepancies (Text)
+
+During preprocessing, unnecessary columns were removed, such as assessor remarks and non-use code values, to streamline the dataset. Rows with erroneous entries flagged in the OPM remarks were also filtered out. Additionally, outliers in the sales ratio were identified and removed to improve the accuracy and performance of the predictive model. 
+
