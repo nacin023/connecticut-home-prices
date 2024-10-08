@@ -30,14 +30,14 @@ The dataset, sourced from the Connecticut Office of Policy and Management, conta
 
 ## Key Columns
 
-- **List Year**: Year the property was listed for sale (Integer)
-- **Town**: Town where the property is located (Text)
-- **Assessed Value**: The value used for local tax assessment (Numeric)
-- **Sale Amount**: Final sale price of the property (Numeric)
-- **Sales Ratio**: Ratio of the sale price to the assessed value (Float)
-- **Residential Type**: Property type, with a focus on single-family homes for this analysis (Text)
-- **Non Use Code**: Code indicating if the sale price is considered unreliable for determining property value (Text)
-- **OPM Remarks**: Notes from OPM that may flag potential data issues, errors, or discrepancies (Text)
+- `list_year`: Year the property was listed for sale.
+- `town`: Town where the property is located.
+- `assessed_value`: The value used for local tax assessment.
+- `sale_amount`: Final sale price of the property.
+- `sales_ratio`: Ratio of the sale price to the assessed value.
+- `residential_type`: Property type, with a focus on single-family homes for this analysis.
+- `non_use_code`: Code indicating if the sale price is considered unreliable for determining property value.
+- `opm_remarks`: Notes from OPM that may flag potential data issues, errors, or discrepancies.
 
 During preprocessing, unnecessary columns were removed, such as assessor remarks and non-use code values, to streamline the dataset. Rows with erroneous entries flagged in the OPM remarks were also filtered out. Additionally, outliers in the sales ratio were identified and removed to improve the accuracy and performance of the predictive model. 
 
