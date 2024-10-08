@@ -15,9 +15,9 @@ The primary aim of this project is to develop a model for forecasting single-fam
 ### Key Metrics
 The analysis focuses on the following key metrics:
 
-Year-over-year changes in sale prices and assessed values.
-Sales ratio trends, representing the relationship between assessed value and sale price.
-Key drivers influencing sale prices, including assessed value, market demand, and geographic factors.
+- Year-over-year changes in sale prices and assessed values.
+- Sales ratio trends, representing the relationship between assessed value and sale price.
+- Key drivers influencing sale prices, including assessed value, market demand, and geographic factors.
 
 ### [Data Source](https://catalog.data.gov/dataset/real-estate-sales-2001-2018)
 
