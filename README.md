@@ -69,7 +69,7 @@ Here is sample of the dataset after data preprocessing:
 - Home prices saw a stable pattern from 2006 to 2018, followed by a significant price surge starting in **2019**.
 - The **2020 housing boom** led to the highest median sale prices in the dataset, likely driven by pandemic-induced demand for housing.
 
-<img src="https://github.com/user-attachments/assets/58843984-e54a-44dd-8fee-a8b50f0e468a)" alt="" width="500"/>
+<img src="https://github.com/user-attachments/assets/58843984-e54a-44dd-8fee-a8b50f0e468a" alt="" width="500"/>
 
 
 ### Model Performance:
