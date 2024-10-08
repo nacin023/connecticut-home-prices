@@ -4,17 +4,20 @@
 
 ### Project Context
 
-This project examines the real estate market in Connecticut, focusing on single-family home sales between 2006 and 2021. The data, sourced from the Connecticut Office of Policy and Management (OPM), provides insights into property transactions exceeding $2,000. The primary aim of this analysis is to explore trends in home sales, understand key factors influencing property values, and build a predictive model to estimate future sale prices.
+This project analyzes the Connecticut real estate market, specifically focusing on single-family home sales from 2006 to 2021. The data, provided by the Connecticut Office of Policy and Management (OPM), includes property transactions exceeding $2,000. The goal is to examine trends in home sales, identify the key factors influencing property values, and build a robust predictive model to estimate future sale prices.
+
+The project’s results are intended to serve as a decision-making tool for real estate professionals, investors, and policymakers, enabling them to make informed decisions based on market dynamics, historical trends, and property valuation drivers.
 
 ### Main Goal
 
-To develop an approach for forecasting single-family home prices in Connecticut, utilizing historical sales data to identify patterns and drivers of property valuation. This model serves as a tool for real estate professionals, investors, and policymakers to make informed decisions based on market dynamics.
+The primary aim of this project is to develop a model for forecasting single-family home prices in Connecticut. By utilizing historical sales data, the model will uncover patterns and drivers that impact property valuations, offering insights into pricing strategies, investment opportunities, and policy recommendations.
 
 ### Key Metrics
+The analysis focuses on the following key metrics:
 
-- Year-over-year changes in sale prices and assessed values.
-- Sales ratio trends, representing the relationship between assessed value and sale price.
-- Key drivers influencing sale prices.
+Year-over-year changes in sale prices and assessed values.
+Sales ratio trends, representing the relationship between assessed value and sale price.
+Key drivers influencing sale prices, including assessed value, market demand, and geographic factors.
 
 ### [Data Source](https://catalog.data.gov/dataset/real-estate-sales-2001-2018)
 
