@@ -69,20 +69,20 @@ Here is sample of the dataset after data preprocessing:
 - Home prices saw a stable pattern from 2006 to 2018, followed by a significant price surge starting in **2019**.
 - The **2020 housing boom** led to the highest median sale prices in the dataset, likely driven by pandemic-induced demand for housing.
 
-**Recommended Visualization:**
-- Use the **'Median Sale Amount Over Time'** line plot to illustrate how sale prices changed between 2006 and 2020, particularly the sharp rise in 2020.
+![image](https://github.com/user-attachments/assets/58843984-e54a-44dd-8fee-a8b50f0e468a)
+
 
 ### Model Performance:
 - The **Random Forest Regressor** emerged as the best-performing model with an **R² score of 0.993** and an **RMSE of $56,048**. The model's reliance on assessed value highlights the critical role of this feature in predicting sale prices.
 
-**Recommended Visualization:**
-- Add the **'Predicted vs Actual Sale Amount'** scatter plot here to visually demonstrate how well the model aligns with actual values.
+![image](https://github.com/user-attachments/assets/9f962b92-b5dc-48d1-98cf-cb79f1de17ec)
+
 
 ### Sales Ratio Decline:
 - Sales ratios have steadily declined since **2011**, with a sharp drop in **2020**, indicating homes sold for much higher than their assessed values during the pandemic housing surge.
 
-**Recommended Visualization:**
-- Include the **'Median Sales Ratio Over Time'** line plot to visualize how the sales ratio changed over the years, highlighting the sharp drop in 2020.
+![image](https://github.com/user-attachments/assets/c92e28cb-e9bb-4cb1-b298-1508cfdc765e)
+
 
 ---
 
