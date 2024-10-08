@@ -3,7 +3,7 @@
 ## Background and Overview
 
 ### Project Context
-This project analyzes the Connecticut real estate market, specifically focusing on single-family home sales from 2006 to 2021. The data, provided by the Connecticut Office of Policy and Management (OPM), includes property transactions exceeding $2,000. The goal is to examine trends in home sales, identify the key factors influencing property values, and build a robust predictive model to estimate future sale prices.
+This project analyzes the Connecticut real estate market, specifically focusing on single-family home sales from **2006 to 2021**. The data, provided by the Connecticut Office of Policy and Management (OPM), includes property transactions exceeding **$2,000**. The goal is to examine trends in home sales, identify the key factors influencing property values, and build a robust predictive model to estimate future sale prices.
 
 The project’s results are intended to serve as a decision-making tool for real estate professionals, investors, and policymakers, enabling them to make informed decisions based on market dynamics, historical trends, and property valuation drivers.
 
@@ -18,7 +18,7 @@ The analysis focuses on the following key metrics:
 - Key drivers influencing sale prices, including assessed value, market demand, and geographic factors.
 
 ### [Data Source](https://catalog.data.gov/dataset/real-estate-sales-2001-2018)
-The dataset includes sales data for all real estate transactions in Connecticut where the sale price was greater than $2,000. Key fields include town, property address, sales price, property assessment value, and sales ratio. The dataset covers sales reported between October 1 and September 30 each year, as required by Connecticut General Statutes.
+The dataset includes sales data for all real estate transactions in Connecticut where the sale price was greater than **$2,000**. Key fields include town, property address, sales price, property assessment value, and sales ratio. The dataset covers sales reported between October 1 and September 30 each year, as required by Connecticut General Statutes.
 
 ### Tools Used
 - Python (Pandas, NumPy, Matplotlib, Seaborn, Skicit-learn) for data cleaning, analysis, and modeling.
