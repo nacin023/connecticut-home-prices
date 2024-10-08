@@ -3,11 +3,11 @@
 
 ## Project Context
 
-This project examines the real estate market in Connecticut, focusing on single-family home sales between 2001 and 2021. The data, sourced from the Connecticut Office of Policy and Management (OPM), provides insights into property transactions exceeding $2,000. The primary aim of this analysis is to explore trends in home sales, understand key factors influencing property values, and build a predictive model to estimate future sale prices.
+This project examines the real estate market in Connecticut, focusing on single-family home sales between 2006 and 2021. The data, sourced from the Connecticut Office of Policy and Management (OPM), provides insights into property transactions exceeding $2,000. The primary aim of this analysis is to explore trends in home sales, understand key factors influencing property values, and build a predictive model to estimate future sale prices.
 
 ## Main Goal
 
-To develop a data-driven approach for forecasting single-family home prices in Connecticut, utilizing historical sales data to identify patterns and drivers of property valuation. This model serves as a tool for real estate professionals, investors, and policymakers to make informed decisions based on market dynamics.
+To develop an approach for forecasting single-family home prices in Connecticut, utilizing historical sales data to identify patterns and drivers of property valuation. This model serves as a tool for real estate professionals, investors, and policymakers to make informed decisions based on market dynamics.
 
 ## Key Metrics
 
