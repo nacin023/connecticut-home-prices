@@ -55,18 +55,27 @@ Here is sample of the dataset after data preprocessing:
 - The least expensive town is **Windham**, with an average sale price of **$159,641**.
 - These findings reflect the economic disparities across Connecticut, with wealthier towns like Greenwich being more desirable due to their proximity to major cities like New York.
 
+**Recommended Visualization:**
+- Bar plot showing the top 10 most expensive and least expensive towns. Use the visualization from the notebook where you plotted **'Top 10 Most Expensive Towns to Buy a Single Family Home'** and **'Top 10 Least Expensive Towns to Buy a Single Family Home'**.
+
 ### Year-Over-Year Sale Trends:
 - Home prices saw a stable pattern from 2006 to 2018, followed by a significant price surge starting in **2019**.
 - The **2020 housing boom** led to the highest median sale prices in the dataset, likely driven by pandemic-induced demand for housing.
 
+**Recommended Visualization:**
+- Use the **'Median Sale Amount Over Time'** line plot to illustrate how sale prices changed between 2006 and 2020, particularly the sharp rise in 2020.
+
 ### Model Performance:
 - The **Random Forest Regressor** emerged as the best-performing model with an **R² score of 0.993** and an **RMSE of $56,048**. The model's reliance on assessed value highlights the critical role of this feature in predicting sale prices.
+
+**Recommended Visualization:**
+- Add the **'Predicted vs Actual Sale Amount'** scatter plot here to visually demonstrate how well the model aligns with actual values.
 
 ### Sales Ratio Decline:
 - Sales ratios have steadily declined since **2011**, with a sharp drop in **2020**, indicating homes sold for much higher than their assessed values during the pandemic housing surge.
 
-## [Dashboard Overview](link to Tableau or similar)
-The interactive dashboard showcases these insights visually, with line graphs and geographic price distribution across Connecticut.
+**Recommended Visualization:**
+- Include the **'Median Sales Ratio Over Time'** line plot to visualize how the sales ratio changed over the years, highlighting the sharp drop in 2020.
 
 ---
 
@@ -77,20 +86,32 @@ The interactive dashboard showcases these insights visually, with line graphs an
 - **Business Metric**: Real estate professionals and investors can leverage this data to guide investment strategies, with high-end markets (e.g., Greenwich) offering luxury investment opportunities, while lower-cost areas (e.g., Windham) present potential for more affordable housing investments.
 - **Historical Trend**: These pricing disparities have persisted across the dataset, with wealthier, coastal towns like Greenwich maintaining their premium status, and more inland areas like Windham remaining budget-friendly.
 
+**Recommended Visualization:**
+- Reuse the **'Top 10 Most Expensive Towns'** and **'Top 10 Least Expensive Towns'** bar charts here for better visualization of geographic trends.
+
 ## 2. Sale Prices and Market Trends Over Time
 - **Quantified Value**: Median sale prices remained relatively stable from **2006 to 2018** but surged in **2020** to their highest point in the dataset.
 - **Business Metric**: The **2020 housing boom**—likely driven by pandemic-related demand—indicates a potential opportunity for real estate agents and investors to capitalize on a still-hot market, but also highlights risks in accurately pricing homes during periods of volatility.
 - **Historical Trend**: The flat pricing trends before **2019** suggest a stagnant market, possibly due to economic stability, but the sharp price rise from **2019 to 2020** reflects a major shift in housing demand driven by the pandemic.
+
+**Recommended Visualization:**
+- The **'Median Sale Amount Over Time'** line plot can be reintroduced here to provide context for the historical sale price trends.
 
 ## 3. Model Performance and Feature Importance
 - **Quantified Value**: The **Random Forest Regressor** outperformed other models with an **R² of 0.993** and an **RMSE of $56,048**.
 - **Business Metric**: The model provides a reliable framework for estimating home prices, with the **assessed value** being the most influential feature, driving the majority of the predictions.
 - **Historical Trend**: Assessed values remain a key determinant of sale prices in Connecticut's real estate market, but the model struggles with extreme outliers, particularly in luxury property sales.
 
+**Recommended Visualization:**
+- Include the **'Feature Importance (Random Forest)'** bar plot here to show which features contributed most to the predictions.
+
 ## 4. Sales Ratio Decline and Market Misalignment
 - **Quantified Value**: The **sales ratio** (the ratio of sale price to assessed value) fell dramatically from **2011** onwards, reaching its lowest point in **2020**.
 - **Business Metric**: This decline suggests a growing gap between assessed values and actual sale prices, with homes selling for far above their assessments. Real estate professionals must account for this when advising clients on market conditions.
 - **Historical Trend**: The sharp drop in **2020** aligns with the housing boom, where rapid price increases outpaced the ability of assessed values to keep up, underscoring the lag in property tax assessments during times of economic volatility.
+
+**Recommended Visualization:**
+- Use the **'Median Sales Ratio Over Time'** line plot again to demonstrate the decline in sales ratios across the years.
 
 ---
 
@@ -114,4 +135,3 @@ The interactive dashboard showcases these insights visually, with line graphs an
 
 - **Data Limitations**: The analysis only includes single-family home sales in Connecticut, limiting its generalizability to other regions or property types.
 - **Assumptions**: Assessed values were treated as a reliable indicator of a property's baseline worth. Future iterations of the model should include additional features like property size, location, and amenities to improve predictions, especially for luxury homes.
-
