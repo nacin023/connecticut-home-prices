@@ -1,4 +1,3 @@
-# connecticut-home-prices
 
 # Background and Overview
 
