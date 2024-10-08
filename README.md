@@ -28,7 +28,7 @@ The dataset includes sales data for all real estate transactions in Connecticut 
 
 The dataset, sourced from the Connecticut Office of Policy and Management, contains real estate sales records from October 1, 2001, through September 30, 2021. Each row represents a property sale, and the dataset includes a total of 14 columns, providing information on the sale amount, assessed value, town, and other important attributes.
 
-## Key Columns
+## Columns
 
 - `list_year`: Year the property was listed for sale.
 - `town`: Town where the property is located.
