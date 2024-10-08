@@ -21,7 +21,7 @@ The dataset includes sales data for all real estate transactions in Connecticut 
 
 ## Tools Used
 
-- Python (Pandas, NumPy, Matplotlib, Seaborn) for data cleaning, analysis, and modeling.
+- Python (Pandas, NumPy, Matplotlib, Seaborn, skicit-learn) for data cleaning, analysis, and modeling.
 - Random Forest Regressor for predictive modeling of sale prices.
 
 # Data Structure Overview
