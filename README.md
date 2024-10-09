@@ -65,7 +65,7 @@ Here is sample of the dataset after data preprocessing:
     <img src="https://github.com/user-attachments/assets/58843984-e54a-44dd-8fee-a8b50f0e468a" alt="" width="600"/>
 
 #### Model Performance:
-- The **Random Forest Regressor** was the top-performing predictive model, achieving an impressive scores. Specifically, the metrics suggest that the model can explain 99.3% of the variability in sale prices, with an average prediction error of about $56,000. The model's strong reliance on **assessed value** as a key feature highlights its importance in predicting home prices.
+- The **Random Forest Regressor** was the top-performing predictive model, achieving great scores. Specifically, the metrics suggest that the model can explain 99.3% of the variability in sale prices, with an average prediction error of about $56,000. The model's strong reliance on **assessed value** as a key feature highlights its importance in predicting home prices.
 
 
     <img src="https://github.com/user-attachments/assets/9f962b92-b5dc-48d1-98cf-cb79f1de17ec" alt="" width="600"/>
