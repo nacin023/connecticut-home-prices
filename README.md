@@ -104,8 +104,6 @@ Here is sample of the dataset after data preprocessing:
 - **Business Metric**: This decline suggests a growing gap between assessed values and actual sale prices, with homes selling for far above their assessments. Real estate professionals must account for this when advising clients on market conditions.
 - **Historical Trend**: The sharp drop in **2020** aligns with the housing boom, where rapid price increases outpaced the ability of assessed values to keep up, highlighting the lag in property tax assessments during times of economic volatility.
 
-    <img src="https://github.com/user-attachments/assets/c1ff970f-d99d-45a2-94c2-d9bcc204bf92" alt="" width="600"/>
-
 ---
 
 ##  Recommendations
