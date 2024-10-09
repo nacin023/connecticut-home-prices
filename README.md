@@ -51,7 +51,7 @@ Here is sample of the dataset after data preprocessing:
 #### Geographic Pricing Trends:
 - The most expensive town for single-family homes is **Greenwich**, with an average sale price of **$2,473,378**.
 - The least expensive town is **Windham**, with an average sale price of **$159,641**.
-- These findings reflect the economic disparities across Connecticut, with wealthier towns like Greenwich being more desirable due to their proximity to major cities like New York.
+- These findings reflect the economic disparities across Connecticut, with wealthier towns like Greenwich likely being more desirable due to their proximity to major cities like New York.
 
 <div style="display: flex; justify-content: space-between;">
   <img src="https://github.com/user-attachments/assets/c5951df2-0494-4fce-a5d4-6b6adc552c7d" alt="Top 10 Most Expensive Towns" width="445"/>
@@ -65,7 +65,8 @@ Here is sample of the dataset after data preprocessing:
     <img src="https://github.com/user-attachments/assets/58843984-e54a-44dd-8fee-a8b50f0e468a" alt="" width="600"/>
 
 #### Model Performance:
-- The **Random Forest Regressor** emerged as the best-performing model with an **R² score of 0.993** and an **RMSE of $56,048**. The model's reliance on assessed value highlights the critical role of this feature in predicting sale prices.
+- The **Random Forest Regressor** was the top-performing predictive model, achieving an impressive scores. Specifically, the metrics suggest that the model can explain 99.3% of the variability in sale prices, with an average prediction error of about $56,000. The model's strong reliance on **assessed value** as a key feature highlights its importance in predicting home prices.
+
 
     <img src="https://github.com/user-attachments/assets/9f962b92-b5dc-48d1-98cf-cb79f1de17ec" alt="" width="600"/>
 
@@ -91,19 +92,17 @@ Here is sample of the dataset after data preprocessing:
 
     <img src="https://github.com/user-attachments/assets/6623d583-cdee-4c0e-86d6-0b7249006c4e" alt="" width="600"/>
 
-
 ### 3. Model Performance and Feature Importance
-- **Quantified Value**: The **Random Forest Regressor** outperformed other models with an **R² of 0.993** and an **RMSE of $56,048**.
-- **Business Metric**: The model provides a reliable framework for estimating home prices, with the **assessed value** being the most influential feature, driving the majority of the predictions.
-- **Historical Trend**: Assessed values remain a key determinant of sale prices in Connecticut's real estate market, but the model struggles with extreme outliers, particularly in luxury property sales.
+- **Quantified Value**: After testing several models, the **Random Forest Regressor** proved to be the most accurate, achieving an **R² of 0.993** and an **RMSE of $56,048**. This means that the model is able to explain 99.3% of the variation in home prices, with the average error in its predictions being around $56,048. In simple terms, the model does a great job of predicting home prices, but you can expect its estimates to be off by about $56,000 on average.
+- **Business Metric**: The model serves as a reliable tool for estimating home prices, with the **assessed value** being the most important factor driving its predictions. This means that how homes are valued by assessors plays a key role in determining their sale price.
+- **Historical Trend**: The model confirms that **assessed values** continue to be a major factor in predicting home sale prices in Connecticut. However, it has trouble accurately predicting prices for very expensive homes (luxury properties), where the predictions may not be as precise.
 
     <img src="https://github.com/user-attachments/assets/ba135a4d-9fa5-4d3d-be1b-71e37edf2b27" alt="" width="600"/>
 
-
 ### 4. Sales Ratio Decline and Market Misalignment
-- **Quantified Value**: The **sales ratio** (the ratio of sale price to assessed value) fell dramatically from **2011** onwards, reaching its lowest point in **2020**.
+- **Quantified Value**: The **sales ratio** (ratio of sale price to assessed value) fell dramatically from **2011** onwards, reaching its lowest point in **2020**.
 - **Business Metric**: This decline suggests a growing gap between assessed values and actual sale prices, with homes selling for far above their assessments. Real estate professionals must account for this when advising clients on market conditions.
-- **Historical Trend**: The sharp drop in **2020** aligns with the housing boom, where rapid price increases outpaced the ability of assessed values to keep up, underscoring the lag in property tax assessments during times of economic volatility.
+- **Historical Trend**: The sharp drop in **2020** aligns with the housing boom, where rapid price increases outpaced the ability of assessed values to keep up, highlighting the lag in property tax assessments during times of economic volatility.
 
     <img src="https://github.com/user-attachments/assets/c1ff970f-d99d-45a2-94c2-d9bcc204bf92" alt="" width="600"/>
 
