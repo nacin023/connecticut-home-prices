@@ -98,7 +98,6 @@ Here is sample of the dataset after data preprocessing:
 - **Business Metric**: The model serves as a reliable tool for estimating home prices, with the **assessed value** being the most important factor driving its predictions. This means that how homes are valued by assessors plays a key role in determining their sale price.
 - **Historical Trend**: The model confirms that **assessed values** continue to be a major factor in predicting home sale prices in Connecticut. However, it has trouble accurately predicting prices for very expensive homes (luxury properties), where the predictions may not be as precise.
 
-    <img src="https://github.com/user-attachments/assets/ba135a4d-9fa5-4d3d-be1b-71e37edf2b27" alt="" width="600"/>
 
 ### 4. Sales Ratio Decline and Market Misalignment
 - **Quantified Value**: The **sales ratio** (ratio of sale price to assessed value) fell dramatically, with a **35% decrease** from its peak in **2011** to its lowest point in **2021**. The sharpest decline occurred in **2020**, where the sales ratio dropped by **13%** compared to the previous year.
