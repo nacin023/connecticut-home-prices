@@ -59,8 +59,8 @@ Here is sample of the dataset after data preprocessing:
 </div>
 
 #### Year-Over-Year Sale Trends:
-- Home prices saw a stable pattern from 2006 to 2018, followed by a significant price surge starting in **2019**.
-- The **2020 housing boom** led to the highest median sale prices in the dataset, likely driven by pandemic-induced demand for housing.
+- Home prices saw a relatively stable pattern from **2006 to 2018**, with a **15% overall decrease** in median sale prices during this period. This suggests a stagnant market likely due to the lingering effects of the 2008 financial crisis.
+- However, starting in **2019**, a significant price surge began, with a **18% increase** in median sale prices from 2019 to 2020, reflecting the impact of the **2020 housing boom** likely driven by pandemic-induced demand for housing.
 
     <img src="https://github.com/user-attachments/assets/58843984-e54a-44dd-8fee-a8b50f0e468a" alt="" width="600"/>
 
@@ -71,7 +71,8 @@ Here is sample of the dataset after data preprocessing:
     <img src="https://github.com/user-attachments/assets/9f962b92-b5dc-48d1-98cf-cb79f1de17ec" alt="" width="600"/>
 
 #### Sales Ratio Decline:
-- Sales ratios have steadily declined since **2011**, with a sharp drop in **2020**, indicating homes sold for much higher than their assessed values during the pandemic housing surge.
+- Sales ratios have steadily declined since **2011**, with a sharp **35% decrease** from 2011 to 2021. The most notable drop occurred in **2020**, where the sales ratio fell by **13%**, indicating that homes were selling far above their assessed values during the pandemic housing surge.
+
 
     <img src="https://github.com/user-attachments/assets/c92e28cb-e9bb-4cb1-b298-1508cfdc765e" alt="" width="600"/>
 
@@ -86,7 +87,7 @@ Here is sample of the dataset after data preprocessing:
 - **Historical Trend**: These pricing disparities have persisted across the dataset, with wealthier, coastal towns like Greenwich maintaining their premium status, and more inland areas like Windham remaining budget-friendly.
 
 ### 2. Sale Prices and Market Trends Over Time
-- **Quantified Value**: Median sale prices remained relatively stable from **2006 to 2018** but surged in **2020** to their highest point in the dataset.
+- **Quantified Value**: Median sale prices remained relatively stable from **2006 to 2018**, with a **15% decrease** in sale prices over this period. However, from **2019 to 2020**, prices surged, with an **18% increase**, reflecting the rapid rise in housing demand during the pandemic.
 - **Business Metric**: The **2020 housing boom**—likely driven by pandemic-related demand—indicates a potential opportunity for real estate agents and investors to capitalize on a still-hot market, but also highlights risks in accurately pricing homes during periods of volatility.
 - **Historical Trend**: The flat pricing trends before **2019** suggest a stagnant market, possibly due to economic stability, but the sharp price rise from **2019 to 2020** reflects a major shift in housing demand driven by the pandemic.
 
@@ -100,7 +101,7 @@ Here is sample of the dataset after data preprocessing:
     <img src="https://github.com/user-attachments/assets/ba135a4d-9fa5-4d3d-be1b-71e37edf2b27" alt="" width="600"/>
 
 ### 4. Sales Ratio Decline and Market Misalignment
-- **Quantified Value**: The **sales ratio** (ratio of sale price to assessed value) fell dramatically from **2011** onwards, reaching its lowest point in **2020**.
+- **Quantified Value**: The **sales ratio** (ratio of sale price to assessed value) fell dramatically, with a **35% decrease** from its peak in **2011** to its lowest point in **2021**. The sharpest decline occurred in **2020**, where the sales ratio dropped by **13%** compared to the previous year.
 - **Business Metric**: This decline suggests a growing gap between assessed values and actual sale prices, with homes selling for far above their assessments. Real estate professionals must account for this when advising clients on market conditions.
 - **Historical Trend**: The sharp drop in **2020** aligns with the housing boom, where rapid price increases outpaced the ability of assessed values to keep up, highlighting the lag in property tax assessments during times of economic volatility.
 
