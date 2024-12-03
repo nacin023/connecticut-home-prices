@@ -54,8 +54,8 @@ Here is sample of the dataset after data preprocessing:
 - These findings reflect the economic disparities across Connecticut, with wealthier towns like Greenwich likely being more desirable due to their proximity to major cities like New York.
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/user-attachments/assets/c5951df2-0494-4fce-a5d4-6b6adc552c7d" alt="Top 10 Most Expensive Towns" width="445"/>
-  <img src="https://github.com/user-attachments/assets/fdde367b-695d-4f78-b7d6-49d20a741420" alt="Top 10 Least Expensive Towns" width="445"/>
+  <img src="https://github.com/user-attachments/assets/c5951df2-0494-4fce-a5d4-6b6adc552c7d" alt="Top 10 Most Expensive Towns" width="600"/>
+  <img src="https://github.com/user-attachments/assets/fdde367b-695d-4f78-b7d6-49d20a741420" alt="Top 10 Least Expensive Towns" width="600"/>
 </div>
 
 #### Year-Over-Year Sale Trends:
